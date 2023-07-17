@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Una breve descripción de la página">
+    <meta name="keywords" content="Diplomaturas, Talleres, UNTREF, School, Seminarios, Workshops, Webinar, Master Class">
+    <meta name="author" content="Germán Díaz">
+    <meta property="og:title" content="UNTREF School">
+    <meta property="og:description" content="breve descripción o reseña del sitio página">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://example.com/pagina.html">
+    <meta property="og:image" content="https://example.com/imagen.jpg">
+
+    <link rel="icon" type="image/png" href="../assets/img/android-icon-192x192.png"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="../js/50e9eacae.js"></script>
+    
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Contacto - UNTREF School</title>
+</head>
+<body>
+    <header >
+        <nav class="navbar bg-nav fixed-top navbar-expand-sm navbar-light">
+            <button class="navbar-toggler mx-auto bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#items">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="items">
+                <ul class="navbar-nav mx-auto menu-items">
+                    <li class="nav-item mx-auto">
+                        <a class="nav-link" href="../index.html#conocenos">Conocenos</a>
+                    </li>
+                    <li class="nav-item dropdown mx-auto">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Propuestas</a>
+                        <ul class="dropdown-menu menu-items" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Diplomaturas</a></li>
+                          <li><a class="dropdown-item" href="#">Seminario</a></li>
+                          <li><a class="dropdown-item" href="#">Master Class</a></li>
+                          <li><a class="dropdown-item" href="#">Workshops</a></li>
+                        </ul>   
+                      </li>    
+                    <li class="nav-item  mx-auto">
+                        <a class="nav-link" href="../index.html#eleginos">Eleginos</a>
+                    </li>
+                    <li class="nav-item  mx-auto">
+                        <a class="nav-link" href="../index.html#noticias">Noticias</a>
+                    </li>
+                    <li class="nav-item  mx-auto">
+                        <a class="nav-link" href="#">Contactanos</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="brand">
+            <img src="../assets/img/logo.jpg" alt="Logo School UNTREF">
+            <h1 class="title_brand">UNTREF School</h1>
+        </section>
+
+        <h2 class="display-6 title_section mt-4" id="noticias">Contactanos</h2>
+        <div class="container">
+            <form class="form needs-validation" novalidate action="" method="POST">
+                <div class="form-group group-form">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" class="form-control" name="nombre" id="nombre" placeholder="Ingrese su Nombre" required>
+                    <div class="invalid-feedback">Por favor ingresa tu nombre.</div>
+                </div>
+                <div class="form-group group-form">
+                    <label for="apellido">Apellido</label>
+                    <input type="text" class="form-control" name="apellido" id="apellido" placeholder="Ingrese su Apellido" required>
+                    <div class="invalid-feedback">Por favor ingresa tu apellido.</div>
+                </div>
+                <div class="form-group group-form">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Ingrese un email válido" required>
+                    <div class="invalid-feedback">Por favor ingresa un email válido.</div>
+                </div>
+                <div class="form-group group-form">
+                    <label for="consulta">Consulta</label>
+                    <textarea class="form-control" name="consulta" id="consulta" rows="4" required></textarea>
+                    <div class="invalid-feedback">Por favor ingresa tu consulta.</div>
+                </div>    
+                <div class="d-flex justify-content-center div-button">
+                    <button type="submit" class="btn btn-primary btn-enviar">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    
+    <footer class="footer pt-3">
+        <div class="f_redSocial">
+            <h4 class="title_footer">Redes Sociales</h4>
+            <p class="mb-3 ps-5 link_redSocial"><a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a></p>    
+            <p class="mb-3 ps-5 link_redSocial"><a href="#"><i class="fa-brands fa-facebook"></i> Facebook</a></p>    
+            <p class="mb-1 ps-5 link_redSocial"><a href="#"><i class="fa-brands fa-square-twitter"></i> Twitter</a></p>    
+        </div>
+        <div class="f_contacto">
+            <h4 class="title_footer">Contacto</h4>
+            <p class="mb-3 ps-5 link_redSocial"><a href="#"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a></p>
+            <p class="mb-3 ps-5"><i class="fa-solid fa-phone"></i> +54 9 11 123456789</p> 
+            <p class="mb-1 ps-5"><i class="fa-solid fa-at"></i><a class="link_consu" href="#"> Consultanos</a></p>
+        </div>
+        <div class="f_school">
+            <h4 class="title_footer">UNTREF School</h4>
+            <div class="mapa"><iframe id="gmap_canvas" src="https://maps.google.com/maps?q=636+5th+Ave%2C+New+York&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
+        </div>
+    </footer>
+
+    <script src="../js/validarForm.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+</html>
