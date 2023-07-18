@@ -1,0 +1,57 @@
+.card_propuesta{
+    position: relative; 
+    height: 230px;
+    width: 20%;
+    background-color: $bgCardPropuesta;
+    border-radius: 3px;
+    border: 1px solid #666;
+    box-shadow: 4px 3px 8px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 4px 3px 8px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 3px 8px -1px rgba(0,0,0,0.75);
+
+    .card-text {
+        position: absolute; 
+        bottom: 0; 
+        left: 0; 
+        right: 0; 
+        padding: 4px; 
+        background-color: rgba(0, 0, 0, 0.8); 
+      }
+}
+
+.text_card_propuesta{
+   @include titulo_footer_article($fontCardPropuesta, #FFF);
+}
+.text_card_propuesta:hover{
+   color: $colorNaranja;
+   cursor: pointer;
+}
+
+.card-img {
+    height: auto;
+  }
+
+.article_noticia{
+    padding: 25px;
+    width: 30%;
+    background-color: $bgArticleNoticia;
+    border: 1px solid #666;
+    border-radius: 8px;
+    box-shadow: 4px 3px 8px 2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 4px 3px 8px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 3px 8px 2px rgba(0,0,0,0.75);
+
+    p{ color: black; }
+}
+
+.div_read_more{
+    width: 100%;
+    padding: 4px; 
+    background-color: rgba(179, 175, 175, 0.89); 
+    text-align: center;
+    a:hover{
+        text-decoration: none;
+        font-weight: 500;
+        color: $colorNaranja;
+    }
+}

@@ -1,0 +1,39 @@
+.footer{
+    display: flex;
+    height: 180px;
+    background-color: $bgFooter;
+}
+
+.f_redSocial, .f_school, .f_contacto{
+    display: flex;
+    flex-direction: column;
+     width: 33.3%;
+}
+
+.f_school{
+    align-items: center;
+}
+
+.link_redSocial a{
+    color:#222;
+    text-decoration: none;
+}
+
+.link_redSocial a:hover{
+    color: $colorAzul;
+}
+
+.link_consu{
+    color: $colorAzul;
+    font-weight: 600;
+}
+
+.link_consu:hover{
+    color: $colorNaranja;
+    text-decoration: none;
+}
+
+.mapa iframe{
+    width: 340px;
+    height: 115px;
+}

@@ -1,0 +1,13 @@
+@import "./base/reset";
+@import "./base/typography";
+@import "./utilities/variables";
+@import "./utilities/mixins";
+@import "./layout/header";
+@import "./layout/structure";
+@import "./layout/navbar.scss";
+@import "./layout/footer"; 
+@import "./base/titles";
+@import "./components/sections";
+@import "./components/cards";
+@import "./components/form";
+@import "./mediaQ/mediaqueries";

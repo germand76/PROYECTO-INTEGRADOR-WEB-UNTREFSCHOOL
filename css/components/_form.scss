@@ -1,0 +1,41 @@
+.form{
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #666;
+    border-radius: 8px;
+    box-shadow: 4px 3px 8px 2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 4px 3px 8px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 4px 3px 8px 2px rgba(0,0,0,0.75);
+}
+
+.form textarea{
+    resize: none;
+}
+
+.group-form{
+    margin-bottom: 20px;
+
+    label{
+        font-weight: 700;
+        font-family: $fontLabelForm;
+        font-size: 1.2em;
+        color: $colorVerde;
+    }
+
+    input, textarea{
+        border: 2px solid $colorAzul;
+    }
+}
+
+.div-button{
+    margin-top: 20px;
+}
+
+.btn-enviar{
+    border: 2px solid $colorGrisOscuro;
+}
+
+.btn-enviar:hover{
+    background-color: $colorNaranja;
+    border: 2px solid $colorGrisClaro;
+}

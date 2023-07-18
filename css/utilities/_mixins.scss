@@ -1,0 +1,16 @@
+@mixin paraEstructura(){
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+@mixin titulo_footer_article($fontFamily, $color){
+    font-family: $fontFamily;
+    color: $color;
+    text-align: center;
+}
+
+@mixin justify_content($justifyContent){
+    display: flex;
+    justify-content: $justifyContent;
+}

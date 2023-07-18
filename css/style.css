@@ -291,6 +291,7 @@ body {
     width: 45%;
   }
 }
+
 @media (min-width: 601px) and (max-width: 768px) {
   .card_propuesta {
     width: 40%;
@@ -337,6 +338,7 @@ body {
     width: 370px;
   }
 }
+
 @media (min-width: 481px) and (max-width: 600px) {
   .div_conocenos, .div_eleginos {
     display: flex;
@@ -400,6 +402,7 @@ body {
     width: 481px;
   }
 }
+
 @media only screen and (max-width: 480px) {
   .brand {
     flex-direction: column;

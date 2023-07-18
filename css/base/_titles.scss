@@ -1,0 +1,20 @@
+.title_brand{
+    font-family: $fontTitleBrand;
+    text-shadow: #FFF 0.1em 0.1em 0.1em;
+    font-size: 3em;
+    // width: 100%;
+}
+
+.title_section{
+    @include titulo_footer_article($fontTitleSection, $colorNaranja);
+    scroll-margin-top: 70px;
+}
+
+.title_footer{
+    @include titulo_footer_article($fontTitleFooter, $colorVerde);
+}
+
+.title_article{
+    @include titulo_footer_article($fontTitleArticle, $colorAzul);
+    font-weight: 600;
+}

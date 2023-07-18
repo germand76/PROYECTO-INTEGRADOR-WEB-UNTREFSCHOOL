@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding-top: 80px;
+  }
+
+.div_conocenos, .div_eleginos{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.div_img{ 
+    width: 40%; 
+    img{ width: 100%; }
+}
+
+.div_p{
+    @include justify_content(center);
+    flex-direction: column;
+    width: 60%;
+    p{ text-align: center; }
+}
+
+.div_propuestas{
+    @include justify_content(space-around);
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px; 
+}
+
+.div_eleginos{ width: 100%; }
+
+.div_noticias{
+    @include justify_content(center);
+    width: 100%;
+    height: auto;
+    gap: 20px;
+}
+

@@ -1,0 +1,229 @@
+@media (min-width: 769px) and (max-width: 1024px){
+    .card_propuesta{
+        width: 40%;
+        height: 250px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+
+        .card-img {
+            max-width: 100%; 
+            max-height: 100%; 
+            object-fit: contain;
+        }
+    }
+    .footer{
+        justify-content:space-around;
+    }    
+
+    .f_school{
+        width: 45%;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 768px){
+    .card_propuesta{
+        width: 40%;
+        height: 250px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+
+        .card-img {
+            max-width: 100%; 
+            max-height: 100%; 
+            object-fit: contain;
+        }
+    }
+
+    .div_noticias{
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+    }
+
+    .article_noticia:first-child, .article_noticia:nth-child(2){
+        width: 100%;
+    } 
+
+    .article_noticia:last-child {
+        grid-column: 1 / span 2; 
+        width: 100%;
+    }
+
+    .footer{
+        height: fit-content;
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        grid-gap: 10px;
+    }
+
+    .f_redSocial, .f_contacto{
+        width: 100%;
+    }
+
+    .f_school{
+        margin-top: 15px;
+        grid-column: 1 / span 2; 
+        width: 100%;
+      }
+
+      .mapa iframe{
+        width: 370px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 600px){
+    .div_conocenos, .div_eleginos{
+        @include justify_content(center);
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    .div_img{width: 100%;}
+    
+    .div_p {
+        width: 100%;
+        padding-left: 7px;
+        padding-right: 7px;
+        p{ text-align: left;}
+    }
+    
+    .card_propuesta{
+        width: 40%;
+        height: 250px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+
+        .card-img {
+            max-width: 100%; 
+            max-height: 100%; 
+            object-fit: contain;
+        }
+    }
+    .div_noticias{
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+    }
+
+    .article_noticia:first-child, .article_noticia:nth-child(2){
+        width: 100%;
+    } 
+
+    .article_noticia:last-child {
+        grid-column: 1 / span 2; 
+        width: 100%;
+    }
+
+    .footer{
+        height: fit-content;
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        grid-gap: 10px;
+    }
+
+    .f_redSocial, .f_contacto{
+        width: 100%;
+    }
+
+    .f_school{
+        margin-top: 15px;
+        grid-column: 1 / span 2; 
+        width: 100%;
+      }
+
+      .mapa iframe{
+        width: 481px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .brand{
+        flex-direction: column;
+
+        img{
+            width: 30%;
+            height: 30%;
+        }
+    }
+
+    .title_brand{
+        font-weight: 600; 
+        text-align: center;
+        margin-top: -25px;
+    }
+    
+    .div_conocenos, .div_eleginos{
+        @include justify_content(center);
+        flex-direction: column;
+        width: 100%;
+    }
+    .div_img{width: 100%;}
+    .div_p {
+        width: 100%;
+        padding-left: 7px;
+        padding-right: 7px;
+        p{ text-align: left;}
+    }
+
+    .div_propuestas{
+        flex-direction: column;
+    }
+
+    .card_propuesta{
+        width: 100%;
+        height: 250px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+
+        .card-img {
+            max-width: 100%; 
+            max-height: 100%; 
+            object-fit: contain;
+        }
+    }
+    .div_noticias{
+        display: flex;
+        flex-direction: column;
+        padding: 3%;
+    }
+
+    .article_noticia{
+        width: 100%;
+    } 
+
+    .article_noticia:last-child {
+        grid-column: 1 / span 2; 
+        width: 100%;
+    }
+
+    .footer{
+        height:fit-content;
+        display: grid;
+        flex-direction: column;
+    }
+
+    .title_footer{padding-top: 10px;}
+
+    .f_redSocial, .f_contacto, .f_school{
+        width: 100%;
+    }
+      
+    .f_redSocial, .f_contacto{
+        padding-bottom: 25px;
+        border-bottom: 1px solid gray;
+    }
+
+    .mapa iframe{
+        width:fit-content;
+    }
+}

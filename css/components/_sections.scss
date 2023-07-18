@@ -1,0 +1,19 @@
+.brand{
+    @include justify_content(center);
+    align-items: center;
+    gap: 30px;
+    margin-top: -22px;
+    background: linear-gradient(180deg, #181823 3%, #fff 100%);
+}
+
+.brand img{
+    width: 10%;
+    height: 10%;
+}
+
+.conocenos, .propuestas, .eleginos, .noticias{
+    @include paraEstructura();
+    border: 1px solid $colorNaranja;
+    margin-top: 30px;
+    padding: 6px;
+}

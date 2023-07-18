@@ -1,0 +1,17 @@
+.bg-nav, .dropdown-menu{
+  background-color: $bgNavBar;
+}
+
+.menu-items > li a {
+    color: $colorCasiBlanco;  
+    font-weight: 400;
+    font-family: $fontItemMenu;
+  }
+
+  .menu-items > li a:hover{
+    text-transform: uppercase;
+    font-weight: 700;    
+    color: $colorNaranja;
+  }
+
+  
